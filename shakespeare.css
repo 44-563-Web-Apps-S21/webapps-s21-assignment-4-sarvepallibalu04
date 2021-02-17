@@ -16,10 +16,16 @@
   }
 
   .name {
+      display: inline-block;
     font-family: 'Arial Narrow';
     font-size: 14px;
     color: black;
   }
+
+ .name:hover {
+    text-shadow: 2px 2px 5px red;
+    border: 1px solid blue;
+  } 
 
   .CALIBAN {
     color: red;
@@ -72,4 +78,8 @@
     text-align: left;
     background-color: skyblue;
     color: blue;
+  }
+
+  h4{
+      margin: 5px 0;
   }
